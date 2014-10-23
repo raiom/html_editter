@@ -137,12 +137,13 @@ input {
 .field_with_errors {
 	@extend .control-group;
 	@extend .error;
+}
 	
 /* miscellaneous */
 .debug_dump {
-clear: both;
-float: left;
-width: 100%;
-margin-top: 45px;
-@include box_sizing;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 45px;
+	@include box_sizing;
 }
