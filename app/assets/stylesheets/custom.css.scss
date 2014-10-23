@@ -124,13 +124,6 @@ aside {
 		margin-bottom: 15px;
 /*		@include box_sizing(border-box);*/
 	}
-/* Box sizing*/
-*.box-sizing(@boxmodel) {
-*	-webkit-box-sizing: @boxmodel;
-*	-moz-box-sizing: @boxmodel;
-*	box-sizing: @boxmodel;
-*}
-*/
 input {
 	height: auto !important;
 }
